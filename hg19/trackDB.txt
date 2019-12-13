@@ -1,0 +1,19 @@
+track CDS
+type bigBed 12 +
+exonArrows on
+exonNumbers on
+itemRgb on
+visibility full
+bigDataUrl hg19_CDS_bed.bed
+shortLabel CDS exons
+longLabel exons that intersect CDS
+
+track UTR
+type bigBed 12 +
+exonArrows on
+exonNumbers on
+itemRgb on
+visibility full
+bigDataUrl hg19_utr_bed.bed
+shortLabel UTR exons
+longLabel exons that do not intersect CDS
