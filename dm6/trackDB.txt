@@ -4,7 +4,7 @@ exonArrows on
 exonNumbers on
 itemRgb on
 visibility full
-bigDataUrl dm6_CDS_bed.bed
+bigDataUrl dm6_CDS.bb
 shortLabel CDS exons
 longLabel exons that intersect CDS
 
@@ -14,6 +14,6 @@ exonArrows on
 exonNumbers on
 itemRgb on
 visibility full
-bigDataUrl dm6_utr_bed.bed
+bigDataUrl dm6_utr.bb
 shortLabel UTR exons
 longLabel exons that do not intersect CDS
