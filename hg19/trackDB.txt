@@ -4,7 +4,7 @@ exonArrows on
 exonNumbers on
 itemRgb on
 visibility full
-bigDataUrl hg19_CDS_bed.bed
+bigDataUrl hg19_CDS.bb
 shortLabel CDS exons
 longLabel exons that intersect CDS
 
@@ -14,6 +14,17 @@ exonArrows on
 exonNumbers on
 itemRgb on
 visibility full
-bigDataUrl hg19_utr_bed.bed
+bigDataUrl hg19_utr.bb
 shortLabel UTR exons
 longLabel exons that do not intersect CDS
+
+
+track Unannotated_junctions
+type bigBed 12 +
+exonArrows on
+exonNumbers on
+itemRgb on
+visibility full
+bigDataUrl hg19_unannotated_junctions.bb
+shortLabel junctions
+longLabel junctions in introns
