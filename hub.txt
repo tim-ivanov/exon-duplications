@@ -1,5 +1,5 @@
 hub duplications
-shortLabel dupl
+shortLabel duplications
 longLabel duplication maps of exons inside genes
 genomesFile genomes.txt
 email tim.ivanov.92@gmail.com
