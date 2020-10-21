@@ -28,3 +28,14 @@ visibility full
 bigDataUrl hg19_unannotated_junctions.bb
 shortLabel junctions
 longLabel junctions in introns
+
+
+track panhandles
+type bigBed 12 +
+exonArrows on
+exonNumbers on
+itemRgb on
+visibility full
+bigDataUrl panhandles_preprocessed_energy_cutoff_-15_3.bb
+shortLabel ph < -15 dG
+longLabel panhandles less then -15 dG on 3 groups
