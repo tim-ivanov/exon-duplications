@@ -39,3 +39,13 @@ visibility full
 bigDataUrl panhandles_preprocessed_energy_cutoff_-15_3.bb
 shortLabel ph < -15 dG
 longLabel panhandles less then -15 dG on 3 groups
+
+track mxe_ph
+type bigBed 12 +
+exonArrows on
+exonNumbers on
+itemRgb on
+visibility full
+bigDataUrl MXE_ph_energy_cutoff_-15_3.bb
+shortLabel mxe_ph
+longLabel panhandles that are mxe 3 groups
